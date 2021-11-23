@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: snow;
+  text-align: center;
+}
+
+.menor {
+  color: tomato;
+}
+
+.mayor {
+  color: limegreen;
+}
+
+button {
+  transition: box-shadow 0.3s ease; /*permite indicarnos que propiedades de css queremos que sean animadas*/
+  background-color: #fff;
+  margin: 0px 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0;
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
